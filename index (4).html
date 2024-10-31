@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Guess a Number </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="img/icon.png">
+</head>
+
+<body>
+
+    <header>
+        <h1><i>Guess the Number</i></h1>
+        <h2>Guess a number between 1 and 99 in seven attempts!</h2>
+    </header>
+    <br>
+    <div id="main">
+        <h3>Enter a guess:</h3>
+        <input type="text" id="playerGuess" size="5">
+        <button id="guessBtn"> Guess </button> <br>
+        <button id="resetBtn"> Reset </button>
+        <div id="feedback"></div>
+        <div> <br>Previous Guesses:
+            <span id="guesses"></span>
+        </div>
+        <br>
+        <div>Remaining Guesses:
+            <span id="guessCounter"></span>
+        </div>
+        <br>
+        <div id="row">
+            <div>Wins: 
+                <span id="winCount"></span>
+            </div>
+            <div>Losses: 
+                <span id="lossCount"></span>
+            </div>
+        </div>
+        <br>
+    </div>
+
+<footer>
+    <p>ALANA HENDEN ||  CST336 LAB2 || SEPT 24'</p>
+</footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
